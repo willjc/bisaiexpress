@@ -1,0 +1,22 @@
+{
+  "name": "bisaiexpress",
+  "version": "1.0.0",
+  "description": "比赛客户端编写",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willjc/bisaiexpress.git"
+  },
+  "author": "郑州瑞斯软件技术有限公司",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willjc/bisaiexpress/issues"
+  },
+  "homepage": "https://github.com/willjc/bisaiexpress#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
