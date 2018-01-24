@@ -3,6 +3,7 @@ var express=require('express');
 var app = new express();
 //设置渲染模板引擎
 app.set("view engine","ejs");
+app.use(express.static('public'));
 //这都是动态路由
 // app.get('/',function(req,res){
 //     res.send('this is a page');
