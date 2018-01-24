@@ -17,9 +17,14 @@ app.set("view engine","ejs");
 
 //         res.send('aid是'+req.query.aid+"<br>"+"pid是"+req.query.pid);
 // });
-app.get('/view',function(req,res){
-
-    res.render('index');
+app.get('/view/:aid',function(req,res){
+    var a=[111,222,333,4444,5555];
+    var b=req.params.aid
+  //  console.log(req.params.aid);
+    res.render('index',{
+            listarr:a,
+            baid:b,
+    });
 })
 
 app.listen(8000);

@@ -6,5 +6,11 @@
 
 <body>
     <h2>这是一个index.ejs模板文件</h2>
+    <h3>aid是<%=baid%></h3>
+    <ul>
+        <% for (var i=0;i<listarr.length;i++) {%>
+                <li><%=listarr[i]%></li>
+        <%}%>
+    </ul>
 </body>
 </html>
